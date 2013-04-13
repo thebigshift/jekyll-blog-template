@@ -1,0 +1,11 @@
+permalink: /:year/:month/:title/
+exclude:  server.sh, Gemfile, Gemfile.lock README.md
+name: My Name
+description: Blog Description
+url: http://example.com
+email: me@gmail.com (My Name)
+title: Blog Title
+subtitle: Blog Subtitle
+only_first_p:
+    show_read_more_link: false
+    read_more_link_text: 'Read more'

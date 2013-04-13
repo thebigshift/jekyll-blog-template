@@ -1,0 +1,144 @@
+body {
+	line-height: 1.5;
+	color: #333;
+	background-color: #ccc;
+	font-family: serif;
+}
+h1, h2, h3 {
+	font-family: sans-serif;
+	color: #21759B;
+	line-height: 1;
+}
+h1 {
+	font-size: 200%;
+}
+h2 {
+	font-size: 150%;
+	margin-top:1em;
+}
+h3 {
+	font-size: 130%;
+}
+a {
+	color: #21759B;
+	font-family: sans-serif;
+}
+a:visited {
+	color: #80939b;
+}
+header a:visited {
+	color: inherit;
+}
+em {
+	font-style: italic;
+}
+strong {
+	font-weight: bold;
+}
+p + p {
+	margin-top: 1em;
+}
+
+body > header {
+	width: 960px;
+	margin: 1em auto 0 auto;
+	padding:0.5em;
+	box-shadow: 0px 0px 10px #666;
+
+	color: #fff;
+	background-color: #555;
+	font-family: 'Maven Pro', sans-serif;
+	font-size: 200%;
+}
+body > header a {
+	color: inherit;
+	text-decoration: none;
+}
+body > header a:hover {
+	text-decoration: underline;
+}
+body > header .subhead {
+	font-size: 75%;
+}
+
+body > footer {
+	clear: both;
+	padding-top: 2em;
+	padding-bottom: 2em;
+	text-align: center;
+	color: #888;
+}
+
+h1 a {
+	text-decoration: none;
+	color: inherit;
+}
+h1 a:hover {
+	text-decoration: underline;
+}
+
+br.clear {
+	clear: both;
+}
+
+#container {
+	width: 860px;
+	margin: 1em auto;
+
+	box-shadow: 0px 0px 10px #666;
+	background-color: #fff;
+}
+
+#content {
+	float: left;
+	width: 66%;
+}
+#content > div, #sidebar > div {
+	padding: 20px;
+}
+#sidebar > div {
+	padding-left: 40px;
+}
+#sidebar {
+	float: right;
+	width: 34%;
+}
+
+time {
+	color: #777;
+	font-family: 'Maven Pro', sans-serif;
+	font-size: 80%;
+	font-style: italic;
+	margin-bottom: 1em;
+}
+p.readmore {
+	margin-bottom: 2em;
+}
+
+#aboutme {
+	font-size: 80%;
+}
+#aboutme h1 {
+	font-size: 150%;
+}
+#aboutme img {
+	float: right;
+	margin-left: 1em;
+	margin-bottom: 1em;
+}
+#contact {
+	margin-top: 1em;
+	font-size: 80%;
+}
+#contact h1 {
+	font-size: 150%;
+}
+#contact ul {
+	list-style-type: none;
+	margin: 0;
+	padding-left: 0;
+	line-height: 30px;
+}
+#contact a img {
+	vertical-align: middle;
+}
