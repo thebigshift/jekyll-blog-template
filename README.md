@@ -15,7 +15,7 @@ Getting started
 Jekyll is [Ruby](www.ruby-lang.org) software, which means you'll first need to install Ruby. You might want to consider using [RVM](https://rvm.io/).
 Once you have Ruby, download the template:
 ```
-git clone git@github.com:ericlathrop/jekyll-blog-template.git
+git clone git://github.com/ericlathrop/jekyll-blog-template.git
 cd jekyll-blog-template
 ```
 Then set up the required Ruby libraries:
